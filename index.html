@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application de Dessin</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="pres">
+            <h1>Application de Dessin</h1>
+            <a href="https://paintz.app/" target="_blank"><button class="redi">Paint</button></a>
+            
+            <div class="color-picker">
+            <label for="color">Choisir une couleur :</label>
+            <input type="color" id="color" value="#000">
+            <button id="dessin" class="truc">Dessiner ✏️</button>
+            <button id="gomme" class="truc">Gomme 🧹</button>
+            <label for="number">Choisir la taille :</label>
+            <input type="number" id="number" class="dex" value="5">
+            <button id="annuler" class="backup">Annuler ◀️</button>
+            <button id="revenir" class="backup">Revenir ▶️</button>
+            <button id="clearButton" class="effacer">Tout Effacer</button>
+            <button id="save" class="jsp">Enregister</button>
+            <label for="upload" class="bidule">Upload</label>
+            <input type="file" accept="image/*" id="upload">
+        </div>
+    </div>
+        <div class="jilie">
+            <canvas id="drawingCanvas"></canvas>
+        </div>
+    </div>
+</body>
+
+</html>

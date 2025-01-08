@@ -1,0 +1,120 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.container {
+    flex-grow: 1;
+    text-align: center;
+    background-color: #fff;
+}
+
+.press {
+    height: 20%;
+}
+
+.jilie {
+    height: 80%;
+}
+
+.color-picker {
+    padding-bottom: 15px;
+}
+
+.dex {
+    width: 50px;
+}
+
+.effacer {
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+}
+
+.effacer:hover {
+    background-color: #d32f2f;
+}
+
+.backup {
+    padding: 10px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+}
+
+.backup:hover {
+    background-color: darkslategrey;
+}
+
+.truc {
+    padding: 10px;
+    margin-left: 10px;
+    background-color: darkgrey;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+}
+
+.jsp {
+    padding: 10px;
+    margin-left: 10px;
+    background-color: darkcyan;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+}
+
+.bidule {
+    padding: 10px;
+    margin-left: 10px;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+}
+
+.redi {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    opacity: 0;
+    background-color: transparent;
+    cursor: help;
+}
+
+#upload {
+    display: none;
+}
+#drawingCanvas {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid black;
+    cursor: url("./pencil.png") 1 38, auto;
+    width: 100%;
+    height: 100%;
+}
